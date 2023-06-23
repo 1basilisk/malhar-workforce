@@ -257,6 +257,7 @@
 	 .carousel-container > .carousel {
 		 height: 56.25vw;
 		 width: 100vw;
+
 	}
 }
  .carousel-container > .carousel > .carousel-slider {
@@ -343,7 +344,10 @@
 	 line-height: 1.5rem;
 	 overflow: hidden;
 	 color: gray;
+
+ 
 }
+
  .carousel-container .carousel-description2 {
 	 margin-top: 1.25rem;
 	 height: 8rem;
@@ -358,6 +362,32 @@
 	 overflow: hidden;
 	 color: gray;
 }
+
+@media (max-width: 640px) {
+
+	.carousel-container .carousel-description {
+		margin-top: 1.25rem;
+		height: 12rem;
+		line-height: 1.5rem;
+		overflow: hidden;
+		color: gray;
+	}
+
+	.carousel-container .carousel-description2 {
+		margin-top: 1.25rem;
+		height: 12rem;
+		line-height: 1.5rem;
+		overflow: hidden;
+		color: gray;
+   }
+	.carousel-container .carousel-description3 {
+		margin-top: 1.25rem;
+		height: 12rem;
+		line-height: 1.5rem;
+		overflow: hidden;
+		color: gray;
+   }
+ }
  .carousel-container .carousel-btns {
 	 width: 640px;
 	 max-width: 100%;
