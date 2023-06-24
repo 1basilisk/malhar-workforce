@@ -542,6 +542,8 @@ html {
 		line-height: 1.5rem;
 		overflow: hidden;
 		color: gray;
+		padding:5px;
+		justify-content: center;
 	}
 
 	.carousel-container .carousel-description2 {
@@ -550,6 +552,8 @@ html {
 		line-height: 1.5rem;
 		overflow: hidden;
 		color: gray;
+		padding:5px;
+		justify-content: center;
    }
 	.carousel-container .carousel-description3 {
 		margin-top: 1.25rem;
@@ -557,6 +561,10 @@ html {
 		line-height: 1.5rem;
 		overflow: hidden;
 		color: gray;
+		padding:5px;
+		justify-content: center;
+		
+
    }
  }
  .carousel-container .carousel-btns {
