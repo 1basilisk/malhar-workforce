@@ -33,7 +33,7 @@ html {
 	
 	background-size: 400% 400%;
 	overflow-x: hidden;
-	animation: gradient 15s ease infinite;
+	animation: gradient 60s ease-in-out infinite;
   
 	
   }
