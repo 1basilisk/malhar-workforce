@@ -7,38 +7,99 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="row">
-          <button class="brand">
-            <b>BEIJING</b>
-          </button>
-          <button class="menu-btn">
-            <svg t="1583388234559" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2279" width="16" height="16"><path d="M128 213.34016l768 0q17.67424 0 30.16704 12.4928t12.4928 30.16704-12.4928 30.16704-30.16704 12.4928l-768 0q-17.67424 0-30.16704-12.4928t-12.4928-30.16704 12.4928-30.16704 30.16704-12.4928zM128 725.34016l768 0q17.67424 0 30.16704 12.4928t12.4928 30.16704-12.4928 30.16704-30.16704 12.4928l-768 0q-17.67424 0-30.16704-12.4928t-12.4928-30.16704 12.4928-30.16704 30.16704-12.4928zM128 469.34016l768 0q17.67424 0 30.16704 12.4928t12.4928 30.16704-12.4928 30.16704-30.16704 12.4928l-768 0q-17.67424 0-30.16704-12.4928t-12.4928-30.16704 12.4928-30.16704 30.16704-12.4928z" p-id="2280" fill="#40403F"></path></svg>
-        </button>
+  <!-- <div class="animated">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="seven"></div>
+    <div class="five"></div>
+    <div class="six"></div>
+  </div> -->
+
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="menu">
+        <div class="nav-item">
+          <a aria-label="Link to Home Page" href="#">Home</a>
         </div>
-        <div class="tabs">
-          <button class="tab" data-text="About">
-            ABOUT
-          </button>
-          <button class="tab" data-text="Reviews">
-            REVIEWS
-          </button>
-          <button class="tab" data-text="Book Your Trip">
-            BOOK YOUR TRIP
-          </button>
+        <div class="nav-item">
+          <a
+            aria-label="Link to Contact Us Page"
+            href="../pages/Contact/index.html"
+            >Contact</a
+          >
+        </div>
+        <div class="nav-item">
+          <a
+            href="http://linktr.ee/malharfest"
+            aria-label="Link to Announcements Page on Linktree"
+            >Announcements</a
+          >
+        </div>
+        <div class="nav-item">
+          <a href="../index.html" aria-label="Link to Events Page on Linktree"
+            >Events</a
+          >
+        </div>
+        <div class="nav-item">
+          <a
+            href="https://blog.malharfest.in"
+            aria-label="Link to Announcements Page on Linktree"
+            >Blog</a
+          >
+        </div>
+        <div class="nav-item">
+          <a aria-label="Link to Contact Us Page" href="#">Workforce</a>
         </div>
       </div>
+
+      <div class="mobile-menu">
+        <a aria-label="Link to Home Page" href="#">Home</a>
+        <a
+          href="../pages/Contact/index.html"
+          aria-label="Link to Contact Us Page"
+          >Contact</a
+        >
+        <a
+          href="http://linktr.ee/malharfest"
+          aria-label="Link to Announcements Page on Linktree"
+          >Announcements</a
+        >
+        <a href="../index.html" aria-label="Link to Events Page on Linktree"
+          >Events</a
+        >
+        <a
+          href="https://blog.malharfest.in"
+          aria-label="Link to Official Malhar Blog"
+          >Blog</a
+        >
+        <a aria-label="Link to Workforce Page" href="#">Workforce</a>
+      </div>
+    </div>
+  </nav>
+
       
       <div class="container">
         <div class="carousel-labels">
-            <label class="carousel-label active" for="Forbidden City">Forbidden City</label>
+         
+            <label class="carousel-label active trans" for="Forbidden City" >Networking</label>
             <label class="carousel-label" for="Jingshan Park">Jingshan Park</label>
             <label class="carousel-label" for="Temple of Heaven">Temple of Heaven</label>
             <label class="carousel-label" for="Beihai Park">Beihai Park</label>
             <label class="carousel-label" for="Houhai Park">Houhai Park</label>
             <label class="carousel-label" for="Yuyuantan Park">Yuyuantan Park</label>
-          </div>
-        <div class="carousel-container">
+         
+        </div>
+        <div class="box">
+        <div class="carousel-container ">
           <div class="carousel">       
             <div class="carousel-slider">
               <img name="Yuyuantan Park" src="https://drive.google.com/uc?id=1jPdf4cqZaaq1QStx5fUDQ68lkDuZesLy" class="carousel-item last-clone" />
@@ -58,6 +119,7 @@
             <button class="btn-left">&lt;</button>
             <button class="btn-right">&gt;</button>
           </div>
+        </div>
         </div>
       </div>
       
@@ -88,7 +150,7 @@
         </div>
         
           <div class="carousel-labels2">
-            <label class="carousel-label2 active" for="Forbidden City">Forbidden City</label>
+            <label class="carousel-label2 active trans" for="Forbidden City">Management</label>
             <label class="carousel-label2" for="Jingshan Park">Jingshan Park</label>
             <label class="carousel-label2" for="Temple of Heaven">Temple of Heaven</label>
             <label class="carousel-label2" for="Beihai Park">Beihai Park</label>
@@ -104,7 +166,7 @@
       
       <div class="container">
         <div class="carousel-labels">
-            <label class="carousel-label3 active" for="Forbidden City">Forbidden City</label>
+            <label class="carousel-label3 active trans" for="Forbidden City">Events</label>
             <label class="carousel-label3" for="Jingshan Park">Jingshan Park</label>
             <label class="carousel-label3" for="Temple of Heaven">Temple of Heaven</label>
             <label class="carousel-label3" for="Beihai Park">Beihai Park</label>
@@ -134,5 +196,6 @@
         </div>
       </div>
 </body>
+<script src="./nav.js"></script>
 <script src="script.js"></script>
 </html>

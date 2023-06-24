@@ -1,3 +1,6 @@
+
+
+
 document.addEventListener("DOMContentLoaded", e => {
     const store = {
       "Forbidden City": "The Forbidden City is a palace complex in central Beijing, China. It houses the Palace Museum, and was the former Chinese imperial palace from the Ming dynasty to the end of the Qing dynasty. The Forbidden City served as the home of Chinese emperors and their households and was the ceremonial and political center of the Chinese government for almost 500 years.",
@@ -8,19 +11,19 @@ document.addEventListener("DOMContentLoaded", e => {
       "Houhai Park":"Houhai is a lake and its surrounding neighborhood in Xicheng District of central Beijing, China. Houhai is the largest of the three lakes, along with Qianhai 'Front Lake' and Xihai 'Western Lake', that comprise Shichahai, the collective name for the three northern-most lakes in central Beijing. ",
      };
     
-    const nav = document.querySelector(".navbar");
-    const nav_brand = document.querySelector(".navbar .brand");
-    const nav_tabs = document.querySelector(".navbar .tabs");
-    const nav_menu_btn = document.querySelector(".navbar .menu-btn"); 
-    let md = 920;
+    // const nav = document.querySelector(".navbar");
+    // const nav_brand = document.querySelector(".navbar .brand");
+    // const nav_tabs = document.querySelector(".navbar .tabs");
+    // const nav_menu_btn = document.querySelector(".navbar .menu-btn"); 
+    // let md = 920;
     
-    nav_menu_btn.onclick = e => {
-      let window_width = window.innerWidth;
-      if(window_width<=md)
-        nav_tabs.classList.toggle("hidden");
-      else
-        nav_tabs.classList.remove("hidden");
-    }
+    // nav_menu_btn.onclick = e => {
+    //   let window_width = window.innerWidth;
+    //   if(window_width<=md)
+    //     nav_tabs.classList.toggle("hidden");
+    //   else
+    //     nav_tabs.classList.remove("hidden");
+    // }
     
     const btn_l = document.querySelector(".btn-left");
     const btn_r = document.querySelector(".btn-right");
@@ -36,14 +39,14 @@ document.addEventListener("DOMContentLoaded", e => {
     let slide_l = -1;
     let active_label = document.querySelector(".carousel-label.active");
     
-    if(window.innerWidth<=md)
-        nav_tabs.classList.add("hidden");
+    // if(window.innerWidth<=md)
+    //     nav_tabs.classList.add("hidden");
     
-    window.onresize = e => {
-      item_width = items[0].clientWidth;
-      if(window.innerWidth<=md)
-        nav_tabs.classList.add("hidden");
-    }
+    // window.onresize = e => {
+    //   item_width = items[0].clientWidth;
+    //   if(window.innerWidth<=md)
+    //     nav_tabs.classList.add("hidden");
+    // }
     
     function slide(direction){ 
       // if (count == num_item-1 || count==0) return;
@@ -98,19 +101,19 @@ document.addEventListener("DOMContentLoaded", e => {
       "Houhai Park":"Houhai is a lake and its surrounding neighborhood in Xicheng District of central Beijing, China. Houhai is the largest of the three lakes, along with Qianhai 'Front Lake' and Xihai 'Western Lake', that comprise Shichahai, the collective name for the three northern-most lakes in central Beijing. ",
      };
     
-    const nav = document.querySelector(".navbar");
-    const nav_brand = document.querySelector(".navbar .brand");
-    const nav_tabs = document.querySelector(".navbar .tabs");
-    const nav_menu_btn = document.querySelector(".navbar .menu-btn"); 
-    let md = 920;
+    // const nav = document.querySelector(".navbar");
+    // const nav_brand = document.querySelector(".navbar .brand");
+    // const nav_tabs = document.querySelector(".navbar .tabs");
+    // const nav_menu_btn = document.querySelector(".navbar .menu-btn"); 
+    // let md = 920;
     
-    nav_menu_btn.onclick = e2 => {
-      let window_width = window.innerWidth;
-      if(window_width<=md)
-        nav_tabs.classList.toggle("hidden");
-      else
-        nav_tabs.classList.remove("hidden");
-    }
+    // nav_menu_btn.onclick = e2 => {
+    //   let window_width = window.innerWidth;
+    //   if(window_width<=md)
+    //     nav_tabs.classList.toggle("hidden");
+    //   else
+    //     nav_tabs.classList.remove("hidden");
+    // }
     
     const btn_l = document.querySelector(".btn-left2");
     const btn_r = document.querySelector(".btn-right2");
@@ -126,14 +129,14 @@ document.addEventListener("DOMContentLoaded", e => {
     let slide_l = -1;
     let active_label = document.querySelector(".carousel-label2.active");
     
-    if(window.innerWidth<=md)
-        nav_tabs.classList.add("hidden");
+    // if(window.innerWidth<=md)
+    //     nav_tabs.classList.add("hidden");
     
-    window.onresize = e2 => {
-      item_width = items[0].clientWidth;
-      if(window.innerWidth<=md)
-        nav_tabs.classList.add("hidden");
-    }
+    // window.onresize = e2 => {
+    //   item_width = items[0].clientWidth;
+    //   if(window.innerWidth<=md)
+    //     nav_tabs.classList.add("hidden");
+    // }
     
     function slide(direction){ 
       // if (count == num_item-1 || count==0) return;
@@ -189,19 +192,19 @@ document.addEventListener("DOMContentLoaded", e => {
       "Houhai Park":"Houhai is a lake and its surrounding neighborhood in Xicheng District of central Beijing, China. Houhai is the largest of the three lakes, along with Qianhai 'Front Lake' and Xihai 'Western Lake', that comprise Shichahai, the collective name for the three northern-most lakes in central Beijing. ",
      };
     
-    const nav = document.querySelector(".navbar");
-    const nav_brand = document.querySelector(".navbar .brand");
-    const nav_tabs = document.querySelector(".navbar .tabs");
-    const nav_menu_btn = document.querySelector(".navbar .menu-btn"); 
-    let md = 920;
+    // const nav = document.querySelector(".navbar");
+    // const nav_brand = document.querySelector(".navbar .brand");
+    // const nav_tabs = document.querySelector(".navbar .tabs");
+    // const nav_menu_btn = document.querySelector(".navbar .menu-btn"); 
+    // let md = 920;
     
-    nav_menu_btn.onclick = e3 => {
-      let window_width = window.innerWidth;
-      if(window_width<=md)
-        nav_tabs.classList.toggle("hidden");
-      else
-        nav_tabs.classList.remove("hidden");
-    }
+    // nav_menu_btn.onclick = e3 => {
+    //   let window_width = window.innerWidth;
+    //   if(window_width<=md)
+    //     nav_tabs.classList.toggle("hidden");
+    //   else
+    //     nav_tabs.classList.remove("hidden");
+    // }
     
     const btn_l = document.querySelector(".btn-left3");
     const btn_r = document.querySelector(".btn-right3");
@@ -217,14 +220,14 @@ document.addEventListener("DOMContentLoaded", e => {
     let slide_l = -1;
     let active_label = document.querySelector(".carousel-label3.active");
     
-    if(window.innerWidth<=md)
-        nav_tabs.classList.add("hidden");
+    // if(window.innerWidth<=md)
+    //     nav_tabs.classList.add("hidden");
     
-    window.onresize = e => {
-      item_width = items[0].clientWidth;
-      if(window.innerWidth<=md)
-        nav_tabs.classList.add("hidden");
-    }
+    // window.onresize = e => {
+    //   item_width = items[0].clientWidth;
+    //   if(window.innerWidth<=md)
+    //     nav_tabs.classList.add("hidden");
+    // }
     
     function slide(direction){ 
       // if (count == num_item-1 || count==0) return;
