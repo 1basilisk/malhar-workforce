@@ -294,6 +294,8 @@ html {
 		 width: 100%;
 		 margin: 0px;
 		 padding: 0px;
+		 margin: 0px;
+		 padding: 0px;
 		
 	}
 }
@@ -360,7 +362,8 @@ html {
 }
  .carousel-labels2 > .carousel-label2 {
 	 position: absolute;
-	 left: -40px;
+	
+	 right: 0;
 	 top: 360px;
 	 transform: translateY(-100%);
 	 cursor: pointer;
@@ -372,12 +375,24 @@ html {
 	 font-size: 2.75rem;
 	 z-index: 900;
 	 opacity: 0;
-	 margin-left: -200px;
+	
+	 /* margin-left: -200px; */
+}
+
+@media (min-width: 920px) {
+	.carousel-labels2 > .carousel-label2 {
+		margin-left: -200px;
+		left: 0;
+	   
+		
+
+   }
 }
  @media (max-width: 640px) {
 	 .carousel-labels2 > .carousel-label2 {
-	     
-		 margin-inline-end: 0%;
+		
+	     margin-left: -200px;
+		
 		 top: 56.25vw;
 		 width: 100vw;
 		 font-size: 1.25rem;
@@ -611,6 +626,8 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	
 	
 	
   }
@@ -619,6 +636,7 @@ html {
 	background-color: rgba(0, 0, 0, 0.797);
 
 	box-shadow: 5px -1px 12px -5px grey;
+	
   }
   
   nav {
