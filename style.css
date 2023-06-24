@@ -391,7 +391,7 @@
  .carousel-container .carousel-btns {
 	 width: 640px;
 	 max-width: 100%;
-	 text-align: right;
+	 text-align: center;
 	 margin-top: 1.25rem;
 	 padding: 0;
 }
@@ -401,6 +401,7 @@
 	 font-size: 1.25rem;
 	 background: white;
 	 border: none;
+	 
 	 outline: none;
 	 cursor: pointer;
 	 border: solid 1px #aaa;
