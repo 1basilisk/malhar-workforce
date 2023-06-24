@@ -4,12 +4,15 @@
 document.addEventListener("DOMContentLoaded", e => {
     const store = {
       "Forbidden City": "The Forbidden City is a palace complex in central Beijing, China. It houses the Palace Museum, and was the former Chinese imperial palace from the Ming dynasty to the end of the Qing dynasty. The Forbidden City served as the home of Chinese emperors and their households and was the ceremonial and political center of the Chinese government for almost 500 years.",
+       
       "Yuyuantan Park": "Yuyuantan Park is one of major urban parks in the city of Beijing. This park covers a territory of about 137 hectares, 61 of which are covered by water. Yuyuantan is the largest water body in the park, and it literally means the Jade Deep Pond. ",
       "Jingshan Park": "Jingshan Park is an imperial park covering 23 hectares immediately north of the Forbidden City in the Imperial City area of Beijing, China. The focal point is the artificial hill Jingshan, literally 'Prospect Hill'. Formerly a private imperial garden attached to the grounds of the Forbidden City, the grounds were opened to the public in 1928. ",
       "Temple of Heaven":"The Temple of Heaven is an imperial complex of religious buildings situated in the southeastern part of central Beijing. The complex was visited by the Emperors of the Ming and Qing dynasties for annual ceremonies of prayer to Heaven for good harvest.",
+      // "N4":"The Temple of Heaven fkvii iiiiii iii iiiiiii iiiiiiiiii iiiiiiii iiiiiii iiiiiii iiiiiii iiii iii iiiiiiii iiiiiii iiiii ii",
       "Beihai Park":"Beihai Park, also known as the Winter Palace, is a public park and former imperial garden located in the northwestern part of the Imperial City, Beijing. First built in the 11th century, it is among the largest of all Chinese gardens and contains numerous historically important structures, palaces, and temples. ",
       "Houhai Park":"Houhai is a lake and its surrounding neighborhood in Xicheng District of central Beijing, China. Houhai is the largest of the three lakes, along with Qianhai 'Front Lake' and Xihai 'Western Lake', that comprise Shichahai, the collective name for the three northern-most lakes in central Beijing. ",
-     };
+      
+    };
     
     // const nav = document.querySelector(".navbar");
     // const nav_brand = document.querySelector(".navbar .brand");
