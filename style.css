@@ -71,6 +71,7 @@ body {
 
 .bglabel {
 	background-color: transparent;
+	
 
 
 }
@@ -397,7 +398,7 @@ body {
 	.carousel-labels>.carousel-label {
 
 		left: -100px;
-		color: #61479C;
+		color: #222;
 		font-weight: bold;
 
 
@@ -410,6 +411,7 @@ body {
 		top: 56.25vw;
 		width: 100vw;
 		font-size: 1.25rem;
+		
 		background-color: #aaa;
 
 	}
@@ -442,14 +444,14 @@ body {
 		top: 56.25vw;
 		width: 100vw;
 		font-size: 1.25rem;
-		background-color: #aaa;
+		
 	}
 }
 
 @media (min-width: 920px) {
 	.carousel-labels>.carousel-label3 {
 		left: -100px;
-		color: #61479C;
+
 		font-weight: bold;
 	}
 }
@@ -486,7 +488,7 @@ body {
 	.carousel-labels2>.carousel-label2 {
 		margin-left: -150px;
 		left: 0;
-		color: #61479C;
+		color: #222;
 		font-weight: bold;
 
 
@@ -542,7 +544,7 @@ body {
 	.carousel-labelsQ>.carousel-labelQ {
 		margin-left: -150px;
 		left: 0;
-		color: #61479C;
+		color: #222;
 		font-weight: bold;
 
 
