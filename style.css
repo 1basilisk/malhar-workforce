@@ -335,10 +335,10 @@ body {
 }
 
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.container2 {
 		margin-left: -100px;
-
+		
 	}
 }
 
@@ -370,7 +370,7 @@ body {
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.containerQ {
 		margin-left: -100px;
 
@@ -420,7 +420,7 @@ body {
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.carousel-labels>.carousel-label {
 
 	    left:0;
@@ -490,7 +490,7 @@ body {
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.carousel-labels>.carousel-label3 {
 		left: 0;
 		
@@ -540,7 +540,7 @@ body {
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.carousel-labels2>.carousel-label2 {
 		margin-left: -300px;
 		left: 0;
@@ -610,7 +610,7 @@ body {
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.carousel-labelsQ>.carousel-labelQ {
 		margin-left: -150px;
 		left: 0;
@@ -666,9 +666,6 @@ body {
 		padding: 0px;
 
 
-
-
-
 	}
 }
 
@@ -685,8 +682,12 @@ body {
 		width: 100vw;
 
 
+
 	}
 }
+
+
+
 
 .carousel-container>.carousel>.carousel-slider {
 	display: flex;
