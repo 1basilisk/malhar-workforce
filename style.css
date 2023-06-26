@@ -431,7 +431,7 @@ body::-webkit-scrollbar{
 
 @media (max-width: 640px) {
 	.carousel-labels>.carousel-label {
-		text-align: center;
+		text-align: justify;
 		top: 57.45vw;
         left:auto;
 		width: 90vw;
@@ -468,7 +468,7 @@ body::-webkit-scrollbar{
 
 @media (max-width: 640px) {
 	.carousel-labels>.carousel-label3 {
-		text-align: center;
+		text-align: justify;
 		top: 56.45vw;
 		width: 100vw;
 		left:auto;
@@ -554,7 +554,7 @@ body::-webkit-scrollbar{
 	.carousel-labels2>.carousel-label2 {
 
 		margin-left: -200px;
-		text-align: center;
+		text-align: justify;
 		top: 57.25vw;
 		width: 90vw;
 		color: #222;
@@ -619,7 +619,7 @@ body::-webkit-scrollbar{
 	.carousel-labelsQ>.carousel-labelQ {
 
 		margin-left: -200px;
-		text-align: center;
+		text-align: justify;
 		top: 60.25vw;
 		width: 90vw;
 		font-size: 1.25rem;
@@ -843,7 +843,7 @@ body::-webkit-scrollbar{
 	overflow: hidden;
 	color: white;
 	justify-content: center;
-	text-align: center;
+	text-align: ;
 
 
 }
@@ -856,7 +856,7 @@ body::-webkit-scrollbar{
 	overflow: hidden;
 	color: white;
 	justify-content: center;
-	text-align: center;
+	text-align: justify;
 }
 
 
@@ -868,7 +868,7 @@ body::-webkit-scrollbar{
 	overflow: hidden;
 	color: white;
 	justify-content: center;
-	text-align: center;
+	text-align: justify;
 }
 
 .carousel-container .carousel-descriptionQ {
@@ -877,7 +877,7 @@ body::-webkit-scrollbar{
 	line-height: 1.5rem;
 	overflow: hidden;
 	color: white;
-	text-align: center;
+	text-align: justify;
 	justify-content: center;
 }
 
@@ -934,7 +934,7 @@ body::-webkit-scrollbar{
 .carousel-container .carousel-btns {
 	width: 640px;
 	max-width: 100%;
-	text-align: center;
+	text-align: justify;
 
 	padding: 0;
 
@@ -1060,7 +1060,7 @@ nav {
 	color: var(--light);
 	color: white;
 	margin: 0 0px;
-	text-align: center;
+	text-align: justify;
 	width: fit-content;
 	text-decoration: none;
 	transition: 0.4s;
@@ -1071,7 +1071,7 @@ nav {
 .nav-item {
 	width: fit-content;
 	margin: auto;
-	text-align: center;
+	text-align: justify;
 }
 
 .menu a.is-active,
@@ -1106,7 +1106,7 @@ nav {
 	display: block;
 	padding: 1rem;
 	color: #fff;
-	text-align: center;
+	text-align: justify;
 	text-decoration: none;
 	font-size: 1.5rem;
 	transition: 0.3s;
