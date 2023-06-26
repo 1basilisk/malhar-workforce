@@ -408,7 +408,7 @@ body {
 @media (max-width: 640px) {
 	.carousel-labels>.carousel-label {
 		text-align: center;
-		top: 57.25vw;
+		top: 57.45vw;
 
 		width: 100vw;
 		font-size: 1.25rem;
@@ -559,7 +559,7 @@ body {
 
 		margin-left: -200px;
 		text-align: center;
-		top: 61.15vw;
+		top: 61.25vw;
 		width: 90vw;
 		font-size: 1.25rem;
 		background-color: #aaa;
@@ -752,7 +752,7 @@ body {
 .carousel-container .carousel-description {
 	margin-top: 1.25rem;
 	
-	height: 12.5rem;
+	height: 15rem;
 	line-height: 1.5rem;
 	overflow: hidden;
 	color: white;
@@ -764,7 +764,7 @@ body {
 .carousel-container .carousel-description2 {
 	margin-top: 1.25rem;
 	margin-bottom: rem;
-	height: 12.5rem;
+	height: 15rem;
 	line-height: 1.5rem;
 	overflow: hidden;
 	color: white;
@@ -774,7 +774,7 @@ body {
 .carousel-container .carousel-description3 {
 	margin-top: 1.25rem;
 	
-	height: 12.5rem;
+	height: 15rem;
 	line-height: 1.5rem;
 	overflow: hidden;
 	color: white;
@@ -817,7 +817,8 @@ body {
 
 	.carousel-container .carousel-descriptionQ {
 		margin-top: 1.25rem;
-		height: 15rem;
+		margin-bottom: 1.25rem;
+		height: 16rem;
 		line-height: 1.5rem;
 		overflow: hidden;
 		color: white;
