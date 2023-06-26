@@ -33,7 +33,7 @@ body {
   background-size: 100% 100%;
 
 
-	/* background: linear-gradient(-45deg, #241B50, #473394, #B084BC, #F6DDEB);
+	/* background: linear-gradient(-45deg, #570082, #473394, #B084BC, #F6DDEB);
 	 */
 
 	background-size: 400% 400%;
@@ -105,7 +105,7 @@ body {
 	border-radius: 100%;
 	width: 2000px;
 	height: 2000px;
-	background-color: #241B50;
+	background-color: #570082;
 	animation: fly 19s linear infinite;
 	transform: rotate(0) translate(89px) rotate(0);
 	filter: blur(90px);
@@ -388,7 +388,7 @@ body {
 	padding: 0.25rem 1.25rem;
 	background: transparent;
 	color: #222;
-	border-left: solid 5px #cf450b;
+	border-left: solid 5px #570082;
 	font-size: 2.75rem;
 	z-index: 900;
 	opacity: 0;
@@ -408,7 +408,8 @@ body {
 @media (max-width: 640px) {
 	.carousel-labels>.carousel-label {
 		text-align: center;
-		top: 56.25vw;
+		top: 57.25vw;
+
 		width: 100vw;
 		font-size: 1.25rem;
 		
@@ -432,7 +433,7 @@ body {
 	padding: 0.25rem 1.25rem;
 	background: transparent;
 	color: #222;
-	border-left: solid 5px #cf450b;
+	border-left: solid 5px #570082;
 	font-size: 2.75rem;
 	z-index: 900;
 	opacity: 0;
@@ -441,8 +442,9 @@ body {
 @media (max-width: 640px) {
 	.carousel-labels>.carousel-label3 {
 		text-align: center;
-		top: 56.25vw;
+		top: 57.45vw;
 		width: 100vw;
+		background-color: #aaa;
 		font-size: 1.25rem;
 		
 	}
@@ -476,7 +478,7 @@ body {
 	padding: 0.25rem 1.25rem;
 	background: transparent;
 	color: #222;
-	border-left: solid 5px #cf450b;
+	border-left: solid 5px #570082;
 	font-size: 2.75rem;
 	z-index: 900;
 	opacity: 0;
@@ -501,7 +503,7 @@ body {
 
 		margin-left: -200px;
 		text-align: center;
-		top: 56.25vw;
+		top: 57.45vw;
 		width: 90vw;
 		font-size: 1.25rem;
 		background-color: #aaa;
@@ -532,7 +534,7 @@ body {
 	padding: 0.25rem 1.25rem;
 	background: transparent;
 	color: #222;
-	border-left: solid 5px #cf450b;
+	border-left: solid 5px #570082;
 	font-size: 2.75rem;
 	z-index: 900;
 	opacity: 0;
@@ -557,7 +559,7 @@ body {
 
 		margin-left: -200px;
 		text-align: center;
-		top: 56.25vw;
+		top: 61.15vw;
 		width: 90vw;
 		font-size: 1.25rem;
 		background-color: #aaa;
@@ -573,7 +575,7 @@ body {
 
 /* quartet labels end */
 .carousel-container {
-	border-top: 5px solid #cf450b;border-bottom: 5px solid #cf450b;
+	border-top: 5px solid #570082 ;border-bottom: 5px solid #570082;
 
 	width: 640px;
 	max-width: 100%;
@@ -798,7 +800,7 @@ body {
 		height: 15rem;
 		line-height: 1.5rem;
 		overflow: hidden;
-		color: gray;
+		color: white;
 		padding: 5px;
 		justify-content: center;
 	}
@@ -808,7 +810,7 @@ body {
 		height: 15rem;
 		line-height: 1.5rem;
 		overflow: hidden;
-		color: gray;
+		color: white;
 		padding: 5px;
 		justify-content: center;
 	}
@@ -818,7 +820,7 @@ body {
 		height: 15rem;
 		line-height: 1.5rem;
 		overflow: hidden;
-		color: gray;
+		color: white;
 		padding: 5px;
 		justify-content: center;
 	}
@@ -828,7 +830,7 @@ body {
 		height: 15rem;
 		line-height: 1.5rem;
 		overflow: hidden;
-		color: gray;
+		color: white;
 		padding: 5px;
 		justify-content: center;
 
@@ -850,11 +852,13 @@ body {
 	height: 2.5rem;
 	font-size: 1.25rem;
 	margin-top: 0.5rem;
-	background-color: transparent;
+	background-color: #aaa;
+	opacity:0.8;
 	border: none;
 	margin-left: 1.25rem;
+	margin-bottom: 1.25rem;;
 	color: white;
-	outline: none;
+	outline:#1f1f1f;
 	cursor: pointer;
 	border: solid 1px #aaa;
 }
