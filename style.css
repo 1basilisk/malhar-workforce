@@ -793,6 +793,11 @@ body::-webkit-scrollbar{
 		width: 100vw;
 		height: 56.25vw;
 	}
+	.carousel-container .carousel-btns>button {
+		width: 4rem;
+	height: 2rem;
+	font-size: 1.25rem;
+	}
 }
 
 /* quartet slider end */
@@ -950,6 +955,8 @@ body::-webkit-scrollbar{
 	cursor: pointer;
 	border: solid 1px #aaa;
 }
+
+
 
 /* navbar start */
 
