@@ -423,7 +423,7 @@ body {
 @media (min-width: 1400px) {
 	.carousel-labels>.carousel-label {
 
-	
+	    left:0;
 		color: #222;
 		font-weight: bold;
 
