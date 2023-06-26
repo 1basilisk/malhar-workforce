@@ -752,7 +752,7 @@ body {
 .carousel-container .carousel-description {
 	margin-top: 1.25rem;
 	
-	height: 15rem;
+	height: 12.5rem;
 	line-height: 1.5rem;
 	overflow: hidden;
 	color: white;
@@ -764,7 +764,7 @@ body {
 .carousel-container .carousel-description2 {
 	margin-top: 1.25rem;
 	margin-bottom: rem;
-	height: 15rem;
+	height: 12.5rem;
 	line-height: 1.5rem;
 	overflow: hidden;
 	color: white;
@@ -774,7 +774,7 @@ body {
 .carousel-container .carousel-description3 {
 	margin-top: 1.25rem;
 	
-	height: 15rem;
+	height: 12.5rem;
 	line-height: 1.5rem;
 	overflow: hidden;
 	color: white;
@@ -797,7 +797,7 @@ body {
 
 	.carousel-container .carousel-description {
 		margin-top: 1.25rem;
-		height: 15rem;
+		height: 18rem;
 		line-height: 1.5rem;
 		overflow: hidden;
 		color: white;
@@ -807,7 +807,7 @@ body {
 
 	.carousel-container .carousel-description2 {
 		margin-top: 1.25rem;
-		height: 15rem;
+		height: 20rem;
 		line-height: 1.5rem;
 		overflow: hidden;
 		color: white;
@@ -818,7 +818,7 @@ body {
 	.carousel-container .carousel-descriptionQ {
 		margin-top: 1.25rem;
 		margin-bottom: 1.25rem;
-		height: 16rem;
+		height: 18rem;
 		line-height: 1.5rem;
 		overflow: hidden;
 		color: white;
@@ -828,7 +828,7 @@ body {
 
 	.carousel-container .carousel-description3 {
 		margin-top: 1.25rem;
-		height: 15rem;
+		height: 18rem;
 		line-height: 1.5rem;
 		overflow: hidden;
 		color: white;
