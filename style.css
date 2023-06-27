@@ -701,8 +701,8 @@ body::-webkit-scrollbar{
 @media (min-width: 1300px) {
 	img{
 		border-radius: 10px;
-		border:5px solid #241B50 ;
-		padding: 15px;
+		border:5px solid #1c1b50 ;
+		
 		
 	}
 }
@@ -719,8 +719,8 @@ body::-webkit-scrollbar{
 
 @media (max-width: 640px) {
 	.carousel-container>.carousel>.carousel-slider>.carousel-item {
-		width: 100vw;
-		height: 56.25vw;
+		width: 90vw;
+		height: auto;
 	}
 	/* img{
 		border:0;
@@ -755,8 +755,8 @@ body::-webkit-scrollbar{
 
 @media (max-width: 640px) {
 	.carousel-container>.carousel>.carousel-slider2>.carousel-item2 {
-		width: 100vw;
-		height: 56.25vw;
+		width: 90vw;
+		height: auto;
 	}
 }
 
@@ -824,14 +824,14 @@ body::-webkit-scrollbar{
 	font-size: 3rem;
 	width: 640px;
 	height: auto;
-	max-width: 100vw;
+	max-width: 120vw;
 	resize: both;
 }
 
 @media (max-width: 640px) {
 	.carousel-container>.carousel>.carousel-slider3>.carousel-item3 {
-		width: 100vw;
-		height: 56.25vw;
+		width: 90vw;
+		height: auto;
 	}
 	
 
