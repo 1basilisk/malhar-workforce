@@ -472,7 +472,8 @@ body::-webkit-scrollbar {
 		text-align: justify;
 		top: 56.45vw;
 		transform: translateY(-100%);
-		width: 100vw;
+		
+		width: 22.9rem;
 		left: auto;
 		color: #222;
 		font-weight: bold;
@@ -480,6 +481,8 @@ body::-webkit-scrollbar {
 		font-size: 1.25rem;
 		border-radius: 0px 0px 10px 10px;
 		border-right: solid 5px #570082;
+		border-left: solid 5px #570082;
+		
 
 	}
 }
@@ -1636,7 +1639,7 @@ body::-webkit-scrollbar {
 	.carousel-labels>.carousel-label3 {
 		text-align: justify;
 		top: 56.45vw;
-	width: 21.95rem;
+		width: 22.9rem;
 	
 		color: #222;
 		font-weight: bold;
@@ -1644,6 +1647,7 @@ body::-webkit-scrollbar {
 		font-size: 1.25rem;
 		border-left: solid 5px #570082;
 		border-radius: 0px 0px 10px 10px;
+		border-right:solid 5px #570082 ;
 
 	}
 }
