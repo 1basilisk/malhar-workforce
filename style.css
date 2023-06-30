@@ -367,7 +367,7 @@ body::-webkit-scrollbar {
 
 @media (min-width: 1400px) {
 	.containerQ {
-		margin-left: -100px;
+		margin-left: 200px;
 
 	}
 }
@@ -470,6 +470,7 @@ body::-webkit-scrollbar {
 	.carousel-labels>.carousel-label3 {
 		text-align: justify;
 		top: 56.45vw;
+		transform: translateY(-100%);
 		width: 100vw;
 		left: auto;
 		color: #222;
@@ -631,6 +632,7 @@ body::-webkit-scrollbar {
 		background-color: #222;
 		border-right: solid 5px #570082;
 		border-radius: 0px 0px 10px 10px;
+		padding-left: 2rem;
 
 	}
 }
@@ -1663,7 +1665,7 @@ body::-webkit-scrollbar {
 	animation: 1s fade-in ease forwards;
 }
 
-.carousel-labels2 {
+.carousel-labels2  .carousel-labels3{
 	position: relative;
 }
 
@@ -1675,7 +1677,7 @@ body::-webkit-scrollbar {
 	transform: translateY(-100%);
 	cursor: pointer;
 	width: 30rem;
-	text-align: right !important;
+	text-align: right;
 	padding: 0.25rem 1.25rem;
 	background: transparent;
 	color: white;
@@ -1746,7 +1748,7 @@ body::-webkit-scrollbar {
 	transform: translateY(-100%);
 	cursor: pointer;
 	width: 325px;
-	padding: 0.25rem 1.25rem 0 0;
+	padding: 0.25rem 1.25rem 0 1rem;
 	background: transparent;
 	color: white;
 	font-size: 4rem;
