@@ -332,10 +332,10 @@ body::-webkit-scrollbar{
 }
 
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.container2 {
 		margin-left: -100px;
-
+		
 	}
 }
 
@@ -368,7 +368,7 @@ body::-webkit-scrollbar{
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.containerQ {
 		margin-left: -100px;
 
@@ -418,7 +418,7 @@ body::-webkit-scrollbar{
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.carousel-labels>.carousel-label {
 
 	    left: 125px;
@@ -488,7 +488,7 @@ body::-webkit-scrollbar{
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.carousel-labels>.carousel-label3 {
 		left: 125px;
 		
@@ -538,7 +538,7 @@ body::-webkit-scrollbar{
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.carousel-labels2>.carousel-label2 {
 		margin-left: -300px;
 		left: 0;
@@ -603,7 +603,7 @@ body::-webkit-scrollbar{
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 	.carousel-labelsQ>.carousel-labelQ {
 		margin-left: -300px;
 		left: 0;
@@ -659,9 +659,6 @@ body::-webkit-scrollbar{
 		padding: 0px;
 
 
-
-
-
 	}
 }
 
@@ -678,8 +675,12 @@ body::-webkit-scrollbar{
 		width: 100vw;
 
 
+
 	}
 }
+
+
+
 
 .carousel-container>.carousel>.carousel-slider {
 	display: flex;
