@@ -1792,6 +1792,11 @@ body::-webkit-scrollbar {
 		width: 90vw;
 		font-size: 1.25rem;
 		background-color: #aaa;
+		border-radius: 0px 0px 10px 10px;
+		border-left: solid 5px #570082;
+		border-right: solid 5px #570082;
+		
+		
 
 	}
 }
