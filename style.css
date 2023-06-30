@@ -332,7 +332,7 @@ body::-webkit-scrollbar{
 }
 
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
 	.container2 {
 		margin-left: -100px;
 		
@@ -368,7 +368,7 @@ body::-webkit-scrollbar{
 	}
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
 	.containerQ {
 		margin-left: -100px;
 
@@ -418,7 +418,7 @@ body::-webkit-scrollbar{
 	}
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
 	.carousel-labels>.carousel-label {
 
 	    left: 125px;
@@ -488,7 +488,7 @@ body::-webkit-scrollbar{
 	}
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
 	.carousel-labels>.carousel-label3 {
 		left: 125px;
 		
@@ -538,7 +538,7 @@ body::-webkit-scrollbar{
 	}
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
 	.carousel-labels2>.carousel-label2 {
 		margin-left: -300px;
 		left: 0;
@@ -603,7 +603,7 @@ body::-webkit-scrollbar{
 	}
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
 	.carousel-labelsQ>.carousel-labelQ {
 		margin-left: -300px;
 		left: 0;
@@ -979,7 +979,7 @@ body::-webkit-scrollbar{
 
 
 .nav-container {
-	max-width: 1600px;
+	max-width: 1400px;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -1797,7 +1797,7 @@ body::-webkit-scrollbar{
 
 @media (max-width: 640px) {
 	.carousel-container {
-		width: 100vw;
+		width: 90vw;
 		max-width: 100%;
 		margin: 0px;
 		padding: 0px;
@@ -1819,7 +1819,7 @@ body::-webkit-scrollbar{
 @media (max-width: 640px) {
 	.carousel-container>.carousel {
 		height: 56.25vw;
-		width: 100vw;
+		width: 90vw;
 
 
 	}
@@ -1837,7 +1837,7 @@ body::-webkit-scrollbar{
 	.carousel-container>.carousel>.carousel-slider {
 		height: 56.25vw;
 		width: 900vw;
-		transform: translateX(-100vw);
+		transform: translateX(-90vw);
 
 	}
 }
@@ -1863,7 +1863,7 @@ body::-webkit-scrollbar{
 
 @media (max-width: 640px) {
 	.carousel-container>.carousel>.carousel-slider>.carousel-item {
-		width: 100vw;
+		width: 90vw;
 		height: auto;
 	}
 	/* img{
@@ -1884,7 +1884,7 @@ body::-webkit-scrollbar{
 	.carousel-container>.carousel>.carousel-slider2 {
 		height: 56.25vw;
 		width: 1300vw;
-		transform: translateX(-100vw);
+		transform: translateX(-90vw);
 	}
 }
 
@@ -1899,7 +1899,7 @@ body::-webkit-scrollbar{
 
 @media (max-width: 640px) {
 	.carousel-container>.carousel>.carousel-slider2>.carousel-item2 {
-		width: 100vw;
+		width: 90vw;
 		height: auto;
 	}
 }
@@ -1959,7 +1959,7 @@ body::-webkit-scrollbar{
 		margin-left: 0;
 		margin-right: 0;
 		padding: 0;
-		transform: translateX(-100vw);
+		transform: translateX(-90vw);
 	}
 }
 
@@ -1974,7 +1974,7 @@ body::-webkit-scrollbar{
 
 @media (max-width: 640px) {
 	.carousel-container>.carousel>.carousel-slider3>.carousel-item3 {
-		width: 100vw;
+		width: 90vw;
 		height: auto;
 	}
 	
@@ -2105,8 +2105,8 @@ body::-webkit-scrollbar{
 	
 .carousel-container .carousel-btns>button {
 	width: 4rem;
-	height: 2rem;
-	font-size: 1.2rem;
+	height: 2.2rem;
+	font-size: 1.7rem;
 }
 }
 
