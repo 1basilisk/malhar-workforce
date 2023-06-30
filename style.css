@@ -685,7 +685,7 @@ body::-webkit-scrollbar{
 	display: flex;
 	width: 6000px;
 	height: 360px;
-	transform: translateX(-640px);
+	transform: translateX(640px);
 
 }
 
@@ -701,7 +701,7 @@ body::-webkit-scrollbar{
 @media (min-width: 1300px) {
 	img{
 		border-radius: 10px;
-		border:5px solid #1c1b50 ;
+		
 		
 		
 	}
@@ -1844,7 +1844,7 @@ body::-webkit-scrollbar{
 @media (min-width: 1300px) {
 	img{
 		border-radius: 10px;
-		border:5px solid #1c1b50 ;
+		
 		
 		
 	}
