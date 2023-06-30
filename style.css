@@ -566,6 +566,7 @@ body::-webkit-scrollbar {
 		font-size: 1.25rem;
 		background-color: #aaa;
 		border-right: solid 5px #570082;
+		border-left: solid 5px #570082 ;
 		border-radius: 0px 0px 10px 10px;
 
 	}
@@ -1728,6 +1729,7 @@ body::-webkit-scrollbar {
 		font-weight: bold;
 		font-size: 1.25rem;
 		background-color: #aaa;
+		border-left: solid 5px #570082 ;
 
 	}
 }
