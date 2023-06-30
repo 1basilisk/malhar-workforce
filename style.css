@@ -400,7 +400,8 @@ body::-webkit-scrollbar{
 	width: 325px;
 	padding: 0.25rem 1.25rem;
 	background: transparent;
-	color: #222;
+	color: white;
+	
 	border-left: solid 5px #570082;
 	font-size: 4rem;
 	z-index: 900;
@@ -411,7 +412,7 @@ body::-webkit-scrollbar{
 	.carousel-labels>.carousel-label {
 
 		left: -100px;
-		color: #222;
+		color: white;
 		font-weight: bold;
 
 
@@ -422,7 +423,7 @@ body::-webkit-scrollbar{
 	.carousel-labels>.carousel-label {
 
 	    left: 125px;
-		color: #222;
+		color: white;
 		font-weight: bold;
 
 
@@ -459,7 +460,7 @@ body::-webkit-scrollbar{
 	width: 325px;
 	padding: 0.25rem 1.25rem;
 	background: transparent;
-	color: #222;
+	color: white;
 	border-left: solid 5px #570082;
 	font-size: 4rem;
 	z-index: 900;
@@ -517,7 +518,7 @@ body::-webkit-scrollbar{
 	width: 325px;
 	padding: 0.25rem 1.25rem;
 	background: transparent;
-	color: #222;
+	color:white;
 	border-left: solid 5px #570082;
 	font-size: 4rem;
 	z-index: 900;
@@ -530,7 +531,7 @@ body::-webkit-scrollbar{
 	.carousel-labels2>.carousel-label2 {
 		margin-left: -150px;
 		left: 0;
-		color: #222;
+		color:white;
 		font-weight: bold;
 
 
@@ -542,7 +543,7 @@ body::-webkit-scrollbar{
 	.carousel-labels2>.carousel-label2 {
 		margin-left: -300px;
 		left: 0;
-		color: #222;
+		color:white;
 		font-weight: bold;
 
 
@@ -587,7 +588,7 @@ body::-webkit-scrollbar{
 	width: 325px;
 	padding: 0.25rem 1.25rem;
 	background: transparent;
-	color: #222;
+	color: white;
 	border-left: solid 5px #570082;
 	font-size: 4rem;
 	z-index: 900;
@@ -598,7 +599,7 @@ body::-webkit-scrollbar{
 	.carousel-labelsQ>.carousel-labelQ {
 		margin-left: -150px;
 		left: 0;
-		color: #222;
+		color: white;
 		font-weight: bold;
 	}
 }
@@ -607,7 +608,7 @@ body::-webkit-scrollbar{
 	.carousel-labelsQ>.carousel-labelQ {
 		margin-left: -300px;
 		left: 0;
-		color: #222;
+		color: white;
 		font-weight: bold;
 
 
@@ -623,7 +624,7 @@ body::-webkit-scrollbar{
 		top: 60.25vw;
 		width: 90vw;
 		font-size: 1.25rem;
-		background-color: #aaa;
+		background-color: #222;
 
 	}
 }
@@ -1544,7 +1545,7 @@ body::-webkit-scrollbar{
 	width: 325px;
 	padding: 0.25rem 1.25rem;
 	background: transparent;
-	color: #222;
+	color: white;
 	border-left: solid 5px #570082;
 	font-size: 4rem;
 	z-index: 900;
@@ -1555,7 +1556,7 @@ body::-webkit-scrollbar{
 	.carousel-labels>.carousel-label {
 
 		left: -100px;
-		color: #222;
+		color: white;
 		font-weight: bold;
 
 
@@ -1566,7 +1567,7 @@ body::-webkit-scrollbar{
 	.carousel-labels>.carousel-label {
 
 	    left: 125px;
-		color: #222;
+		color: white;
 		font-weight: bold;
 
 
@@ -1603,7 +1604,7 @@ body::-webkit-scrollbar{
 	width: 325px;
 	padding: 0.25rem 1.25rem;
 	background: transparent;
-	color: #222;
+	color:white;
 	border-left: solid 5px #570082;
 	font-size: 4rem;
 	z-index: 900;
@@ -1661,7 +1662,7 @@ body::-webkit-scrollbar{
 	width: 325px;
 	padding: 0.25rem 1.25rem;
 	background: transparent;
-	color: #222;
+	color: white;
 	border-left: solid 5px #570082;
 	font-size: 4rem;
 	z-index: 900;
@@ -1674,7 +1675,7 @@ body::-webkit-scrollbar{
 	.carousel-labels2>.carousel-label2 {
 		margin-left: -150px;
 		left: 0;
-		color: #222;
+		color: white;
 		font-weight: bold;
 
 
@@ -1686,7 +1687,7 @@ body::-webkit-scrollbar{
 	.carousel-labels2>.carousel-label2 {
 		margin-left: -300px;
 		left: 0;
-		color: #222;
+		color:white;
 		font-weight: bold;
 
 
@@ -1731,7 +1732,7 @@ body::-webkit-scrollbar{
 	width: 325px;
 	padding: 0.25rem 1.25rem;
 	background: transparent;
-	color: #222;
+	color: white;
 	border-left: solid 5px #570082;
 	font-size: 4rem;
 	z-index: 900;
@@ -1742,7 +1743,7 @@ body::-webkit-scrollbar{
 	.carousel-labelsQ>.carousel-labelQ {
 		margin-left: -150px;
 		left: 0;
-		color: #222;
+		color:white;
 		font-weight: bold;
 	}
 }
@@ -1751,7 +1752,7 @@ body::-webkit-scrollbar{
 	.carousel-labelsQ>.carousel-labelQ {
 		margin-left: -300px;
 		left: 0;
-		color: #222;
+		color:white;
 		font-weight: bold;
 
 
@@ -1765,6 +1766,7 @@ body::-webkit-scrollbar{
 		margin-left: -200px;
 		text-align: justify;
 		top: 60.25vw;
+		color:#222;
 		width: 90vw;
 		font-size: 1.25rem;
 		background-color: #aaa;
