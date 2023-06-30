@@ -361,13 +361,14 @@ body::-webkit-scrollbar {
 @media (min-width: 920px) {
 	.containerQ {
 		margin-left: -250px;
+		margin-right: -200px;
 
 	}
 }
 
 @media (min-width: 1400px) {
 	.containerQ {
-		margin-left: 200px;
+		margin-left: -100px;
 
 	}
 }
@@ -531,7 +532,7 @@ body::-webkit-scrollbar {
 
 @media (min-width: 920px) {
 	.carousel-labels2>.carousel-label2 {
-		margin-left: -150px;
+		margin-left: -250px;
 		left: 0;
 		color: white;
 		font-weight: bold;
@@ -543,7 +544,7 @@ body::-webkit-scrollbar {
 
 @media (min-width: 1400px) {
 	.carousel-labels2>.carousel-label2 {
-		margin-left: -300px;
+		margin-left: -400px;
 		left: 0;
 		color: white;
 		font-weight: bold;
@@ -578,7 +579,7 @@ body::-webkit-scrollbar {
 
 /* quartet labels start */
 
-.carousel-labelsQ {
+/* .carousel-labelsQ {
 	position: relative;
 }
 
@@ -603,7 +604,8 @@ body::-webkit-scrollbar {
 @media (min-width: 920px) {
 	.carousel-labelsQ>.carousel-labelQ {
 		margin-left: -150px;
-		left: 0;
+		left:0 ;
+	
 		color: white;
 		font-weight: bold;
 	}
@@ -611,8 +613,9 @@ body::-webkit-scrollbar {
 
 @media (min-width: 1400px) {
 	.carousel-labelsQ>.carousel-labelQ {
-		margin-left: -300px;
+		margin-left: 200px;
 		left: 0;
+	
 		color: white;
 		font-weight: bold;
 
@@ -641,7 +644,7 @@ body::-webkit-scrollbar {
 	opacity: 0.8;
 	animation: 1s fade-in ease forwards;
 }
-
+ */
 
 /* quartet labels end */
 .carousel-container {
@@ -794,6 +797,7 @@ body::-webkit-scrollbar {
 .carousel-container>.carousel>.carousel-sliderQ>.carousel-itemQ {
 	color: white;
 	font-size: 3rem;
+	
 	width: 640px;
 	height: 360px;
 	max-width: 100vw;
@@ -1691,7 +1695,7 @@ body::-webkit-scrollbar {
 
 @media (min-width: 920px) {
 	.carousel-labels2>.carousel-label2 {
-		margin-left: -150px;
+		margin-left: -250px;
 		left: 0;
 		color: white;
 		font-weight: bold;
@@ -1703,7 +1707,7 @@ body::-webkit-scrollbar {
 
 @media (min-width: 1400px) {
 	.carousel-labels2>.carousel-label2 {
-		margin-left: -300px;
+		margin-left: -380px;
 		left: 0;
 		color: white;
 		font-weight: bold;
@@ -1751,6 +1755,7 @@ body::-webkit-scrollbar {
 	padding: 0.25rem 1.25rem 0 1rem;
 	background: transparent;
 	color: white;
+	border-right: solid 5px #570082;
 	font-size: 4rem;
 	z-index: 900;
 	opacity: 0;
@@ -1758,7 +1763,7 @@ body::-webkit-scrollbar {
 
 @media (min-width: 920px) {
 	.carousel-labelsQ>.carousel-labelQ {
-		margin-left: -150px;
+		margin-left: -250px;
 		left: 0;
 		color: white;
 		font-weight: bold;
@@ -1767,7 +1772,7 @@ body::-webkit-scrollbar {
 
 @media (min-width: 1400px) {
 	.carousel-labelsQ>.carousel-labelQ {
-		margin-left: -300px;
+		margin-left: -400px;
 		left: 0;
 		color: white;
 		font-weight: bold;
