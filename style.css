@@ -1753,7 +1753,7 @@ body::-webkit-scrollbar {
 
 .carousel-labelsQ>.carousel-labelQ {
 	position: absolute;
-
+text-align: right;
 	right: 0;
 	top: 360px;
 	transform: translateY(-100%);
@@ -2327,3 +2327,15 @@ nav {
 		padding: 16px 32px 20px 32px;
 	}
 }
+
+h1 {
+	
+	font-size: 7vh;
+	padding-top: 5rem;
+	text-align: center;
+	text-transform: uppercase;
+	text-rendering: optimizeLegibility;
+	color: rgb(198, 192, 233);
+	margin-bottom: 0;
+}
+
