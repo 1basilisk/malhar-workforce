@@ -450,7 +450,7 @@ body::-webkit-scrollbar {
 	animation: 1s fade-in ease forwards;
 }
 
-.carousel-labels>.carousel-label3 {
+/* .carousel-labels>.carousel-label3 {
 	position: absolute;
 	left: 0;
 	top: 360px;
@@ -473,7 +473,7 @@ body::-webkit-scrollbar {
 		top: 56.45vw;
 		transform: translateY(-100%);
 		
-		width: 22.9rem;
+		width: 100%;
 		left: auto;
 		color: #222;
 		font-weight: bold;
@@ -508,7 +508,7 @@ body::-webkit-scrollbar {
 .carousel-labels>.carousel-label3.active {
 	opacity: 0.8;
 	animation: 1s fade-in ease forwards;
-}
+} */
 
 .carousel-labels2 {
 	position: relative;
