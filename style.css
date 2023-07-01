@@ -385,6 +385,7 @@ body::-webkit-scrollbar {
 	h1{
 		padding-top: 0rem !important;
 		margin-top: 1rem;
+		font-size: 4vh !important;
 	}
 }
 
@@ -921,6 +922,9 @@ h1{
 }
 
 @media (max-width: 640px) {
+	label{
+		text-align: center !important;
+	}
 
 	.carousel-container .carousel-description {
 		margin-top: 1.25rem;
@@ -965,6 +969,7 @@ h1{
 
 	}
 }
+
 
 .carousel-container .carousel-btns {
 	width: 640px;
@@ -1791,7 +1796,7 @@ text-align: right;
 
 @media (min-width: 920px) {
 	.carousel-labelsQ>.carousel-labelQ {
-		margin-left: -250px;
+		margin-left: -370px;
 		left: 0;
 		color: white;
 		font-weight: bold;
