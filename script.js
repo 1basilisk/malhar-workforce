@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", eQ => {
   const storeQ = {
-    "Forbidden City": "These are departments forming the compass that gives the fest direction.What are Management Departments like, you ask? Well they do the tech, the money, the budget AND they're funny.",
+    "Forbidden City": "The Quartet of Malhar: Eye of the Storm are the visionary captains of the ship, who harmoniously navigate through the storm of Malhar. With their guidance, they strive to provide an exhilarating journey, inviting participants to embrace the whirlwind of chaos and discover the beauty within.",
     "n4":"Within the university, the department of assistance is in charge of crowd and venue control. We provide care for participants, viewers, and occasionally even other volunteers xD. We ensure that there is little disruption and that all Malhar events go off without a hitch. Along with managing the audience, we also get the pleasure of dealing with every judge that shows up to hear Malhar's case. Basically, we keep things running smoothly by working in the background.",
     "n5":"\"We do everything else after we eat.\" Managing the food and drinks on the days of Malhar is the responsibility of hospitality, a management division and key component of Malhar. Here at Hospitality, we also take care of the participants' lodging requirements and use cardolates to convey to the workers the sentiments and feelings of their fellow participants. Food and drinks are provided during pre-Malhar gatherings as well as during the major Malhar days.",
     "Yuyuantan Park": "We never take a chance. That is why we do frisks. Although the music is loud, we continue to manage the crowd. We really shine when the judges are involved. We carry out our plans because the college's safety is in our hands. We are SECURITY, for your interest. Security is the department for you if you want to have a great Malhar and have a lot of fun while working. It's the largest department, and there is a variety of tasks that necessitates diligent, committed, and vivacious individuals!!!",
@@ -100,11 +100,11 @@ document.addEventListener("DOMContentLoaded", e => {
   const store = {
     "Forbidden City":"They (net)work their way through everything that they need for Malhar and did the \"Am I audible?\" with an audience before it was the new normal. Supreme graphics, expert salesman shop and technical expertise is what they bring to the table!" ,
     "Jingshan Park":"Computers as a department chooses to reside on Discord. In addition to the painful tracking down of bugs and fixing them, you'll probably find one member of the department or another awake at any time of the day. Finding snippets of code through infinite hours of scrolling, clear out something thats \"bugging\" you, or helping the other OGs with all the problems in their computers. All these fall right under their domain." ,
-    "Temple of Heaven":"" ,
-    "N4":"" ,
-    "Beihai Park": "",
-    "Houhai Park": "",
-    "Yuyuantan Park": "The fact that we at FnD see everything makes us the most stunning department ever! There are no questions. We are totally responsible for the workplace becoming 10 times friendlier thanks to our cameras! We are a friendly group of individuals who want to have fun while seeming like experts by using terms like ISO, Aperture, Shutter Speed, etc. Trust us, we do. Copyrights adore us a little too much, and we wish we could return the favor.",
+    "Temple of Heaven":"Conclave is like the cherry on the cake of Malhar. It is a youth platform full of glamour and intellect where eminent personalities and dignitaries share their expertise. Right from the President of India to your favourite Bollywood star, you can meet everyone at Conclave!" ,
+    "N4":"Creatives sets the brand identity from Malhar. Everything from the logo and social media posts to digitally designed merch and banners falls under Creatives' umbrella !" ,
+    "Beihai Park": "The Public Relations (PR) department for Malhar'23 is responsible for managing and enhancing the overall image, reputation and social media communication of the events.",
+    "Houhai Park": "Decor and Merchandise (DnM) specializes in transforming the college space into a captivating environment through creative backdrops and installations as well as by offering an array of appealing merchandise and paintings. At DnM, we ensure that our work is not only visually stunning but also creates lasting memories. We believe that by combining artistic excellence with an enjoyable and collaborative atmosphere, we can provide students with an unforgettable fest experience, where art and personal expression intertwine to form a vibrant tapestry of memories.",
+    "Yuyuantan Park": "Filming and Documentation is a department which captures anticipation and enthusiasm on all the days leading upto the fest, and at the end, becomes a way to recollect and remember all the significant moments lived.",
 
   };
   
@@ -191,13 +191,13 @@ document.addEventListener("DOMContentLoaded", e => {
 document.addEventListener("DOMContentLoaded", e2 => {
   const store2 = {
     "Forbidden City": "These are departments forming the compass that gives the fest direction.What are Management Departments like, you ask? Well they do the tech, the money, the budget AND they're funny.",
-    "n4":"",
-    "n5":"\"We do everything else after we eat.\" Managing the food and drinks on the days of Malhar is the responsibility of hospitality, a management division and key component of Malhar. Here at Hospitality, we also take care of the participants' lodging requirements and use cardolates to convey to the workers the sentiments and feelings of their fellow participants. Food and drinks are provided during pre-Malhar gatherings as well as during the major Malhar days.",
-    "Yuyuantan Park": "",
-    "Jingshan Park": "",
-    "Temple of Heaven":"",
-    "Beihai Park":"",
-    "Houhai Park":" ",
+    "n4":"Assistance is a department under the Management domain and mainly deals with crowd management and venue management and are incharge of all venues where events take place. \nNeed to know the routes around college? Need the first aid kit? I hope not but need an ambulance? Need help with anything at all?\nWe are the solution to all your problems!",
+    "n5":"Hospitality is a department that ensures the comfort of everyone associated with Malhar right from the workforce to the guests. Whether it's food hunting, card designing or meal packing, we do it all. Finally we also encapsulate your best Malhar memories through Cardolates.",
+    "Yuyuantan Park": "Security ensures the safety and control of the crowd on the days of Malhar. It is part of the big four and is the largest department in terms of workforce strength. The department has jobs like acquiring licenses, crowd control, audience safety, frisking, confiscating banned items, Judge parking, Judge routes and safety, entry, exit and evacuation.",
+    "Jingshan Park": "Bright lights, loud speakers and extravagant settings. Our unrivaled talent for blowing fuses and making speakers screech will leave you in awe. From illuminating the venue to blasting the music, Texxx does it all.",
+    "Temple of Heaven":"Finance is the bridge between the vision and the execution of Malhar. As a department which deals with money, we believe that trust and loyalty is most integral to our team as confidentiality is our second nature. From budgeting to reimbursement,  not a day goes by when finance is not pulling up an ace up to its sleeves.Finance is everywhere and when it's about the job, no matter how tough it is, we leave no stone unturned!",
+    "Beihai Park":"All venues and setup-related work are handled by logistics. It involves moving bulky items, setting up backgrounds, building and displaying stages and setting up benches and tables in Classrooms. Three auxiliary departments are present.Construction, Displays & Classrooms",
+    "Houhai Park":"Marketing is responsible for helping raise funds that are essential to keep the festival running and for all the tie ups that Malhar undertakes. Ask us how you can get involved!",
    };
   
   // const nav = document.querySelector(".navbar");
@@ -284,13 +284,13 @@ document.addEventListener("DOMContentLoaded", e2 => {
 document.addEventListener("DOMContentLoaded", e3 => {
   const store3 = {
     "Forbidden City": "The ones who are keeping the competitive spirit of Malhar alive and rerouting the legacy of Malhar's events in this never-seen-before virtual setup. It's them who make Malhar as Event-ful as it gets!",
-    "Yuyuantan Park": "",
-    "Jingshan Park": "Welcome to the bright side! Overflowing with energy and expression, here’s introducing a riot of unparalleled talent: The World Performing Arts Department. From lyrics to gimmicks, to soulful pirouettes, our events aim to reflect the perfect melange of innovation and emotion. Turn up that bass, grab your headphones and get your groove on because it’s time to hop on to this expedition of unconstrained, limitless creativity.",
-    "Temple of Heaven":"",
-    "n5":"The Backbone of Malhar: Admin keeps the Malhar Machine running smoothly and declares the final winners of Malhar. When in doubt, Admin is the department to fall back on. Being the Rulebook Creator of Malhar, Admin likes to go by their tagline: “You Play By Our Rules.” Be assured that this power packed bunch will have your back!",
-    "Beihai Park":"",
-    "Houhai Park":"",
-    "Yuyuantan Park1": ""
+    "Yuyuantan Park1": "Be it dance, culinary, or arts and crafts, Workshops Incorporated is the department that offers a space for everyone to learn something unique and have fun through its many workshops. The Yardsale is a wholesome social cause event that WINC also handles. Toh ab aankh maro, toofan machao ;)",
+    "Jingshan Park": "From the grace of contemporary to the swag of hip-hop, from the melodies of acapella to the beats of jazz, we've got it all covered! WPA is the platform that gives your passion wings!",
+    "Temple of Heaven":"Entertainment, theatricals and contests is a department which includes a variety of events like Malhar icon, theater & Field domination etc etc.. If you are someone who is interested in event management and event curation, this department is the best place for you to have a versatile and most exclusive experience related to events.",
+    "n5":"Rightly dubbed the \"Backbone of Malhar\", We are the unsung heroes of the festival, without whom the festival would be nothing more than a pipe dream, working tirelessly behind the scenes to make sure everything runs smoothly.",
+    "Beihai Park":"Fine Arts is a captivating voyage of shattered preconceptions, where we experiment and explore new avenues. From our resplendent events to the alluring Fine Arts Lounge, each conception we conceive is a veritable masterpiece of originality. The Fine Arts Department at Malhar is a vibrant hub of creativity and expression. With a diverse range of artistic disciplines, it fosters a nurturing environment for aspiring artists to explore their talents.",
+    "Houhai Park":"The Indian Performing Arts department of Malhar 2023 aims to promote the beats of tabla, the mellifluous notes of the sitar, the rhythmic footwork of Kathak and the energetic beats of Bhangra. By fusing the traditional art forms with a little Bollywood tadka, our vision is to organize the grandest and the most entertaining events in Malhar! \"Kyonki Malhar sirf teen cheezon ki wajah se chalta hain entertainment, entertainment, entertainment aur IPA entertainment hai.\”",
+    "Yuyuantan Park": " Literary Arts is a department that seems very niche, but in a lot of ways, is one of the most diverse. From Taal and Blog to Book Lounge and finally Events, it is the embodiment of creative expression. Each event allows you to explore and potentially put out a part of you that is undiscovered. So, if you’re not afraid to challenge yourself, this is the department to be:) This year’s vision for Literary Arts is the embodiment of the dialogue, \“Picture abhi baaki hai mere dost.\”"
   };
   
   // const nav = document.querySelector(".navbar");
