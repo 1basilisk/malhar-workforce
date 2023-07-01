@@ -383,10 +383,17 @@ body::-webkit-scrollbar {
 
 	}
 	h1{
-		padding-top: 3rem;
+		padding-top: 0rem !important;
+		margin-top: 1rem;
 	}
 }
 
+@media (max-width: 1300px) {
+h1{
+	padding-top: 0rem !important;
+	margin-top: 4rem;
+}
+}
 /* QUARTET CONTAINER END */
 .carousel-labels {
 	position: relative;
@@ -419,6 +426,7 @@ body::-webkit-scrollbar {
 
 
 	}
+	
 }
 
 @media (min-width: 1400px) {
@@ -1548,7 +1556,7 @@ body::-webkit-scrollbar {
 	}
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1300px) {
 	.containerQ {
 
 		width: 100%;
@@ -1556,6 +1564,10 @@ body::-webkit-scrollbar {
 		padding: 0px;
 		margin-top: 5rem;
 
+	}
+
+	#navbar{
+		background-color: transparent !important;
 	}
 }
 
