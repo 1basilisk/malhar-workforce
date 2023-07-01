@@ -15,4 +15,3 @@ window.onscroll = () => {
         navbar.classList.remove('nav-active');
     }
 };
-
