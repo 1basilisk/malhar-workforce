@@ -382,6 +382,9 @@ body::-webkit-scrollbar {
 		margin-top: 5rem;
 
 	}
+	h1{
+		padding-top: 3rem;
+	}
 }
 
 /* QUARTET CONTAINER END */
@@ -2120,10 +2123,12 @@ text-align: right;
 	width: 640px;
 	max-width: 100%;
 	text-align: center;
-
+	
 	padding: 0;
 
 }
+
+
 
 .carousel-container .carousel-btns>button {
 	width: 8rem;
@@ -2148,7 +2153,9 @@ text-align: right;
 		width: 4rem;
 		height: 2.2rem;
 		font-size: 1.7rem;
+		margin-bottom: 2.5rem;
 	}
+	
 }
 
 
@@ -2286,7 +2293,7 @@ nav {
 	padding-top: 5rem;
 	opacity: 0;
 	transform: translateY(-100%);
-	background-color: #241B50;
+	background:linear-gradient(#3c3369, #6860ff, #13122c);
 	color: #fff;
 	transition: 0.2s;
 }
@@ -2300,7 +2307,7 @@ nav {
 	display: block;
 	padding: 1rem;
 	color: #fff;
-	text-align: justify;
+	text-align: center;
 	text-decoration: none;
 	font-size: 1.5rem;
 	transition: 0.3s;
